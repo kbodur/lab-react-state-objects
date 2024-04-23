@@ -20,7 +20,7 @@ function App() {
   };
 
   const tidyOrder = () => {
-    document.getElementById("xxx").style.opacity = "1"
+
     const tidiedOrder = [];
     currentOrder.forEach((item) => {
       const existingItemIndex = tidiedOrder.findIndex(
@@ -31,7 +31,7 @@ function App() {
       } else {
         tidiedOrder.push({ ...item, quantity: 1 });
       }
-
+      document.getElementById("xxx").style.opacity = "1"
     });
     setCurrentOrder(tidiedOrder);
     const newTotalCost = tidiedOrder.reduce(
@@ -39,6 +39,7 @@ function App() {
       0
     );
     setTotalCost(newTotalCost);
+
   };
 
   const removeFromOrder = (index) => {

@@ -22,7 +22,7 @@ Edit multiple JavaScript files in this lab to refactor this app to have multiple
 
 1. Deploy this application to Netlify and add the link to your netlify site below:
 
-- [MY LIVE SITE URL]()
+- [MY LIVE SITE URL](https://snazzy-basbousa-ba280c.netlify.app)
 
 #### Testing Tips
 
