@@ -132,6 +132,8 @@ section div div:last-child button {
 section ul li {
   display: flex;
   justify-content: space-between;
+  line-height: 0.1em;
+  font-weight: 700;
 }
 
 footer ul {
@@ -147,4 +149,12 @@ footer ul li {
 footer ul li:hover {
   list-style-type: none;
   color: rgb(255, 99, 3);
+}
+
+.x{
+  border: none;
+  background-color: #faf9ef;
+}
+#xxx{
+  opacity: 0;
 }
